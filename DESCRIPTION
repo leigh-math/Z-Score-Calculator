@@ -1,0 +1,12 @@
+Package: zcalculator
+Type: Package
+Title: Standard Normal Z-Score Calculator for Summary Statistics
+Version: 1.0
+Date: 2016-06-20
+Author: Leigh Matthews
+Maintainer: Leigh Matthews <leighmatthews87@gmail.com>
+Description: This package takes sample summary statistics (sample size, mean, standard deviation) 
+    and calculates the z-score of the input X value as well as calculating the p-value for the lower-tail 
+    of the Standard Normal Distribution.
+License: GPL-2
+
