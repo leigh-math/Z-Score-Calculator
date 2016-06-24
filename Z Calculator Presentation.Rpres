@@ -1,0 +1,71 @@
+Z Calculator Presentation
+========================================================
+author: Leigh Anne Matthews
+date: 6/24/2016
+autosize: true
+
+
+
+Basic Statistics
+========================================================
+type: section
+
+**Statistics** is increasingly more relevant in the world today as more big data becomes available for analysis in fields such as Economics, Health Care, Bio-Science, Education, Psychology, Quality Control, Technology, and many others.
+
+
+![Standard Normal Distribution](./images/Standard_Normal_Distribution.png)
+***
+
+To prepare students for higher education and the new jobs work-force, many schools are teaching Statistics into the mathematics curriculum. 
+
+
+
+The most widely-used statistical concept is the **Standard Normal Distribution**, which is defined by
+a population mean of 0, standard deviation of 0.5 and a bell-curve shape.
+
+
+
+Standard Normal Distribuion 
+========================================================
+type: section
+
+The Standard Normal Distribution is commonly used to **standardize** values "X" from a normal distribution to 
+easily calculate the **probability** associated with that value, which is called the p-value. 
+
+<center>![Standardizing Example](./images/standardizing.gif)<center>
+
+
+The formula for converting a value "X" to a standardized normal **z-score** is: 
+
+**$$\huge z = (x-\mu) / (sd/sqrt(n))$$**
+
+
+
+
+
+
+Example: Soda Can Quality Control
+========================================================
+type: section
+
+**Quality Control wants to know if the amount of soda in each 12 oz can is correct (within 5%) or if the process needs to be fixed.  The cans should contain 12 oz of soda. A sample of 100 cans has a sample mean of 11.9 oz per can and standard deviation of 0.5 oz.  Are the soda cans within the acceptable limits (p-value < 0.05)?**
+
+
+This problem can answered by manually calculating the z-score and using hard-to-read tables, causing frustration and increasing the chances or incorrect answers... OR ...You can use
+
+<center>![Z-text](./images/ztext.JPG)<center>
+
+
+
+The Z-Score Calculator is an R package, available for free download at <https://github.com/leigh-math/Developing-Data-Products/blob/master/zcalculator.zip>.
+
+
+
+Z-Score Calculator Application
+========================================================
+type: section
+
+<center>![Z-Score](./images/app_screenshot2.JPG)<center>
+
+
+**Answer:** The z-score is 2 and the corresponding p-value is ~0.023, so the soda-filling process for cans is in control at the 5% level of significance.
